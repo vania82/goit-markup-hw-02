@@ -132,12 +132,14 @@ background-color: #FFFFFF;
     letter-spacing: 0.72px;
     text-transform: capitalize;   
 }
+
 .team {
     padding-bottom: 32px;
     justify-content:center;
     background: var(--WHITE, #FFF);
     
 }
+
 .name-team {
     
     padding-bottom: 32px;
