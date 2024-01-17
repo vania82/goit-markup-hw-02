@@ -1,8 +1,7 @@
 body {
-
-font-family: "Robot", sans-serif;
-color: #434455;
-background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 
 }
 
@@ -12,10 +11,10 @@ background-color: #FFFFFF;
     
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 1.17;
+    line-height:1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
@@ -41,13 +40,15 @@ background-color: #FFFFFF;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 
 }
- .nav_link .link:hover,
- .nav_link .link:focus {
-     color: #404bbf;
- }
+
+.nav_link:hover,
+.nav_link:focus {
+  color: #404bbf;
+
+}
 
 .contacts {
     font-style: normal;
@@ -58,10 +59,16 @@ background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight : 400;
     line-height: 24px;;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
+
+.contacts_link:hover,
+.contacts_link:focus {
+    color: #404bbf;
+}
+
 
 .section-main {
     background-color: #2e2f42 ;
@@ -90,8 +97,7 @@ background-color: #FFFFFF;
     cursor: pointer;
 }
 
-.button .link:hover,
-.button .link:focus {
+.button:hover, button:focus {
     background-color: #404BBF;
 }
 
@@ -187,9 +193,18 @@ background-color: #FFFFFF;
 
 
 .footer-logo-studio {
-    color: #f4f4fd
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-text {
  color:#F4F4FD;
+ line-height: 1.5;
+ letter-spacing: 0.02em
   }
